@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  height: 100vh;
+  background-image: url(https://www.bing.com/images/blob?bcid=S7VPY-gjSA4IqxcxoNWLuD9SqbotqVTdPxA);
+  box-shadow: 0 0 10px #fff;
+  padding: 45px 5%;
+  
+}
+.container{
+  position: relative;
+  height: 100%;
+  background-color: rgba(255,255,255,.1);
+  border: 1px solid rgba(255,255,255,.3);
+  border-radius: 30px;
+  backdrop-filter: blur(30px);
+}
+header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 25px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+.logo{
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+.navbar a{
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+  border-bottom: 2px solid transparent;
+  transition: 0.5s;
+}
+.navbar a:hover,
+.navbar a:active{
+  border-color: #fff;
+}
+.home{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  gap: 50px;
+  padding: 50px 5% 0;
+  color: #fff;
+  
+  box-shadow: 0 0 10px #d11313;
+}
+.home_detial h1{
+  font-size: 55px;
+  line-height: 1;
+}
+.home_detial h2{
+  font-size: 32px;
+}
+.home_detial p{
+  margin: 10px 0 20px;
+}
+.home_detial .social{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.btn{
+  display: inline-block;
+  padding: 10px 30px;
+  background: #fff;
+  border: 2px solid #fff;
+  border-radius: 40px;
+  box-shadow: 0 0 10px #fff;
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.5s;
+}
+.btn:hover{
+  background-color: transparent;
+  box-shadow: none;
+  color: #fff;
+}
+.home_detial .social_icon{
+  margin-left: 15px;
+}
+.home_detial .social_icon a{
+  display: inline-flex;
+  padding: 8px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 8px;
+  transition: 0.5s;
+}
+.home_detial .social_icon a:hover{
+  background-color: #fff;
+ 
+  box-shadow: 0 0 10px #fff;
+  color: #9b4646;
+}
+.home_img .img_box{
+  position: relative;
+  width: 26vw;
+  height: 28vw;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 20px #987979;
+  overflow: hidden;
+  background-image: url(v);
+}
+.home_img .img_box img{
+  position: absolute;
+  top: 30px;
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
